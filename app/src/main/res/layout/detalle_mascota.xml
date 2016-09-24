@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evoldig.mascoticas.DetalleMascota">
+
+        <include android:id="@+id/miActionBar"
+                layout="@layout/actionbar">
+
+        </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miActionBar"
+        android:text="Las mas Raitiadas"
+        />
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMiFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenes_fab"
+        android:layout_below="@id/miActionBar"
+        android:src="@drawable/camera_49"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
